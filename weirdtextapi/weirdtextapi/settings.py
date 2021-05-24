@@ -1,3 +1,4 @@
+import django_heroku
 """
 Django settings for weirdtextapi project.
 
@@ -126,3 +127,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #App version tag
 VERSION_TAG = 'v1'
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
