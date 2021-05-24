@@ -12,7 +12,7 @@
 ## Heroku:
 
 To use this API from cloud just make GET request:
- - https://weird-text-api.herokuapp.com/v1/encode/?data=\<sentence\>  
+ - https://weird-text-api.herokuapp.com/v1/encode/?data=<sentence\>  
 where \<sentence\> is your sentence to encode
- - https://weird-text-api.herokuapp.com/v1/decode/?data=\<encoded\>  
+ - https://weird-text-api.herokuapp.com/v1/decode/?data=<encoded\>  
 where \<encoded\> is your text to decode
