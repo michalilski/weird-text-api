@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath weirdtextapi weirdtextapi.wsgi
